@@ -1,0 +1,256 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.site-btn {
+  width: 160px;
+  padding: 14px;
+  color: white;
+  background-color: rgb(1, 161, 209);
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+/* header section in css */
+header {
+  padding: 8px;
+}
+.col-6 img {
+  height: 80px;
+}
+.col-6 .book {
+  display: flex;
+  width: 80px;
+  background-color: rgb(250, 233, 172);
+  padding: 15px;
+  font-size: 18px;
+  gap: 7px;
+  border-radius: 6px;
+}
+.col-6 .head-icon {
+  display: flex;
+  font-size: 22px;
+  gap: 15px;
+  align-items: center;
+  justify-content: end;
+}
+.head-icon .fa-instagram {
+  color: rgb(229, 20, 152);
+}
+.head-icon .fa-facebook {
+  color: rgb(40, 124, 233);
+}
+.head-icon .fa-linkedin-in {
+  color: rgb(35, 157, 212);
+}
+.head-list ul {
+  list-style: none;
+  display: flex;
+}
+.head-list ul li {
+  font-size: 17px;
+  padding: 23px;
+}
+/* carousel-section section in css */
+#carousel-section {
+  padding-bottom: 50px;
+}
+#carousel-section .col-12 {
+  position: relative;
+  text-align: center;
+}
+#carousel-section .col-12 img {
+  background-image: url("/assets/image/pearlofqatar.jpg");
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(0.5px);
+}
+#carousel-section .carousel-text-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#carousel-section .carousel-text-btn h2 {
+  font-size: 48px;
+  color: white;
+  margin: 25px 0px;
+}
+
+/* Travel cards section in css */
+#travel-cards {
+  margin: 50px 0px;
+}
+#travel-cards .h-two {
+  display: flex;
+  justify-content: center;
+  margin: 27px 0px;
+}
+#travel-cards .h-two h2 {
+  font-size: 36px;
+  color: rgb(35, 157, 212);
+}
+#travel-cards .select-country {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#travel-cards .select-country select {
+  width: 230px;
+  padding: 15px;
+  color: rgb(173, 169, 169);
+  border-color: rgb(173, 169, 169);
+  margin: 0px 20px;
+  font-size: 16px;
+}
+#travel-cards .country-price img {
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+#travel-cards .price {
+  display: flex;
+  justify-content: flex-end;
+}
+#travel-cards .cards {
+  margin: 0px 5px;
+}
+#travel-cards .price span {
+  position: absolute;
+  background-color: rgb(255, 159, 243);
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-end;
+  margin-top: -38px;
+  margin-right: 10px;
+}
+#travel-cards .cards .bəə {
+  width: 300px;
+  margin: 12px 0px;
+  font-size: 16px;
+  color: rgb(112, 112, 112);
+}
+#travel-cards .cards p {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+#travel-cards .cards button {
+  width: 90px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid rgb(35, 157, 212);
+  border-radius: 12px;
+  background-color: white;
+  color: rgb(35, 157, 212);
+  margin-top: 25px;
+}
+#travel-cards .cards button:hover {
+  color: white;
+  background-color: rgb(35, 157, 212);
+}
+
+/* Own tours section in css */
+#own-tour{
+ padding: 60px 0px;
+}
+#own-tour .all-tours a{
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: rgb(35, 157, 212);
+}
+#own-tour .col-12 {
+  position: relative;
+  text-align: center;
+}
+#own-tour .col-12 img {
+  width: 716px;
+  opacity: 0.4;
+}
+#own-tour .col-12 .map-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#own-tour .map-text p{
+  color: rgb(35, 157, 212);
+  font-size: 54px;
+  margin-bottom: 40px;
+  margin-top: -25px;
+}
+
+/* customers section in css */
+#customers{
+  padding: 70px 0px;
+}
+#customers .say{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+#customers .customers-box{
+  width: 500px;
+  border: 1px solid rgb(235, 229, 229);
+  border-radius: 6px;
+  padding: 9px;
+}
+#customers .person{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 10px;
+}
+#customers .person .person-text{
+  font-size: 16px;
+
+}
+/* footer section */
+#site-footer{
+  margin-top: 20px;
+  border-top: 1px solid rgb(187, 183, 183);
+}
+#site-footer .col-3{
+  padding: 30px 0px;
+}
+#site-footer .col-3 img{
+  height: 80px;
+}
+#site-footer .col-3 h2{
+  font-size: 20px;
+}
+#site-footer .col-3 ul{
+  list-style: none;
+  padding: 9px 0px;
+}
+#site-footer .col-3 ul li{
+  padding: 8px 0px;
+}
+#site-footer .col-12 .img-sponsor{
+  
+  display: flex;
+  justify-content: center;
+}
+#site-footer .copyrigth{
+  padding: 12px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(1,161,209);
+  color: white;
+}
